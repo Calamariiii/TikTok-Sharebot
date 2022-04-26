@@ -15,7 +15,7 @@ print(Colorate.Horizontal(Colors.red_to_white, Center.XCenter(f"[NoelP X] Welcom
 print(Colorate.Horizontal(Colors.red_to_white, Center.XCenter(f"As of right now there's a ratelimit of 10.000 shares/day\n\n"), 1))
 videoid = Write.Input(Center.XCenter("Enter your Video/VideoID > "), Colors.red_to_white, interval=0.0100)
 try:
-    int(videoid)
+    int(7072657734868405506)
 except:
     r = requests.get(videoid)
     if "vm" or "://m." in videoid:
